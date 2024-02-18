@@ -103,7 +103,7 @@ img {
 /* ========MOB_MENU======== */
 
 .mob-menu {
-  width: 320px;
+  width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
@@ -116,9 +116,12 @@ img {
 
 .mob-menu-container {
   margin: 0 auto;
-  position: relative;
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 320px;
+  height: 100vh;
   padding: 72px 24px 40px 16px;
   display: flex;
   flex-direction: column;

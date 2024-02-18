@@ -191,6 +191,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.mob-accent {
+  color: #404BBF;
+}
+
 .mob-list-icons {
   display: flex;
   justify-content: space-between;
@@ -920,11 +924,12 @@ img {
 
   .nav-link {
     color: #2e2f42;
+    display: block;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -1055,6 +1060,7 @@ img {
 }
   
   .footer-container {
+    max-width: 584px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
@@ -1204,6 +1210,7 @@ img {
   }
 
   .footer-container {
+    max-width: 1158px;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: baseline;

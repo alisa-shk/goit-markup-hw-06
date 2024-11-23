@@ -266,9 +266,6 @@ img {
       }
 }
 
-.hero-container {
-}
-
 .hero-header {
   color: #fff;
   font-size: 36px;
@@ -358,9 +355,6 @@ img {
   border: 1px solid #8e8f99;
   background: #f4f4fd;
   margin-bottom: 8px;
-}
-
-.icon-icon {
 }
 
 /*==========OUR TEAM==========*/
@@ -537,9 +531,6 @@ img {
   gap: 72px;
 }
 
-.footer-left {
-}
-
 .logo-footer {
   text-align: center;
   color: #4d5ae5;
@@ -613,9 +604,6 @@ img {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
   background-color: #31d0aa;
-}
-
-.footer-subscribe {
 }
 
 .footer-form {
